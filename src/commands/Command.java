@@ -75,7 +75,7 @@ public abstract class Command {
      * @return Returns reference to the "engine" member of this class.
      */
     protected TraderEngine accessEngine() {
-        // wait until the engine is safe to to modify
+        // wait until the engine is safe  to modify
         waitForSafeModify();
 
         // return the engine
